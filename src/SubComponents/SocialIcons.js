@@ -43,7 +43,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring',duration:1, delay:1.2}}
             >
-                <NavLink style={{color:'inherit'}} target="_blank" to={{pathname:"https://twitter.com/"}}>
+                <NavLink style={{color:'inherit'}} target="_blank" to={{pathname:"https://twitter.com/esgisland"}}>
                     <Twitter width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
@@ -53,7 +53,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring',duration:1, delay:1.4}}
             >
-                <NavLink style={{color:'inherit'}} target="_blank" to={{pathname:"https://youtube.com/"}}>
+                <NavLink style={{color:'inherit'}} target="_blank" to={{pathname:"https://www.youtube.com/channel/UCwc82MO_TkVCY8kROtMoKSA"}}>
                     <YouTube width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
