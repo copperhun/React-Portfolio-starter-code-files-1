@@ -53,7 +53,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring',duration:1, delay:1.4}}
             >
-                <NavLink style={{color:'inherit'}} target="_blank" to={{pathname:"https://www.youtube.com/channel/UCwc82MO_TkVCY8kROtMoKSA"}}>
+                <NavLink style={{color:'inherit'}} target="_blank" to={{pathname:""}}>
                     <YouTube width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
